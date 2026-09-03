@@ -2,16 +2,33 @@
 @use "../base/mixins" as *;
 
 .header-principal {
-  background-color: $color-primario; // O el color que prefieras
+  background-color: $color-primario; // #2b50aa
 
-  // Si querés que los links resalten con el fondo nuevo:
   .nav-link {
     color: #ffffff;
 
     &:hover,
     &.active {
-      color: $color-secundario;
+      color: $color-secundario; // #ff9800
     }
+  }
+
+  .navbar-nav {
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    gap: 0.5rem;
+
+    // Si tenés el mixin desktop:
+    @include desktop {
+      padding: 0;
+      gap: 1rem;
+    }
+
+    // O si preferís con @media directo:
+    // @media (min-width: 992px) {
+    //   padding: 0;
+    //   gap: 1rem;
+    // }
   }
 
   .logo {
