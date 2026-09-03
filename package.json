@@ -1,5 +1,26 @@
 {
   "dependencies": {
     "bootstrap": "^5.3.8"
+  },
+  "name": "wall-panel",
+  "version": "1.0.0",
+  "description": "Este portafolio es una página personal para presentar mi perfil como Desarrollador Web y mostrar mis proyectos.",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "sass scss/style.scss css/style.css --no-source-map",
+    "watch:css": "sass --watch scss/style.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joseparragit/bookish-system.git"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/joseparragit/bookish-system/issues"
+  },
+  "homepage": "https://github.com/joseparragit/bookish-system#readme",
+  "devDependencies": {
+    "sass": "^1.103.1"
   }
 }
