@@ -1,0 +1,25 @@
+@use "../base/variables" as *;
+@use "../base/mixins" as *;
+
+.header-principal {
+  background-color: $color-primario; // O el color que prefieras
+
+  // Si querés que los links resalten con el fondo nuevo:
+  .nav-link {
+    color: #ffffff;
+
+    &:hover,
+    &.active {
+      color: $color-secundario;
+    }
+  }
+
+  .logo {
+    height: 38px;
+    width: auto;
+
+    @include desktop {
+      height: 50px;
+    }
+  }
+}

@@ -1,1 +1,20 @@
+.header-principal {
+  background-color: #2b50aa;
+}
+.header-principal .nav-link {
+  color: #ffffff;
+}
+.header-principal .nav-link:hover, .header-principal .nav-link.active {
+  color: #ff9800;
+}
+.header-principal .logo {
+  height: 38px;
+  width: auto;
+}
+@media (min-width: 1024px) {
+  .header-principal .logo {
+    height: 50px;
+  }
+}
 
+/*# sourceMappingURL=style.css.map */
