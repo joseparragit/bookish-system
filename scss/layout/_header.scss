@@ -2,14 +2,20 @@
 @use "../base/mixins" as *;
 
 .header-principal {
-  background-color: $color-primario; // #2b50aa
+  background-color: $color-fondo-header;
+
+  .navbar {
+    background-color: transparent; // usa el fondo del header
+  }
 
   .nav-link {
-    color: #ffffff;
+    color: $color-texto-header;
+    font-weight: 500;
+    transition: color 0.3s ease;
 
     &:hover,
     &.active {
-      color: $color-secundario; // #ff9800
+      color: $color-acento-hover;
     }
   }
 
@@ -18,22 +24,16 @@
     padding-bottom: 0.5rem;
     gap: 0.5rem;
 
-    // Si tenés el mixin desktop:
     @include desktop {
       padding: 0;
-      gap: 1rem;
+      gap: 1.25rem;
     }
-
-    // O si preferís con @media directo:
-    // @media (min-width: 992px) {
-    //   padding: 0;
-    //   gap: 1rem;
-    // }
   }
 
   .logo {
-    height: 38px;
+    height: 40px;
     width: auto;
+    object-fit: contain;
 
     @include desktop {
       height: 50px;
