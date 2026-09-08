@@ -41,6 +41,52 @@ body {
   }
 }
 
+.footer-principal {
+  background-color: #121212;
+  color: #ffffff;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+.footer-principal p, .footer-principal span, .footer-principal small {
+  color: #ffffff;
+  margin: 0;
+}
+.footer-principal a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.footer-principal a:hover {
+  color: #ff9800;
+}
+
+.card {
+  background-color: #1a1a1a;
+  border: 1px solid #333333;
+  color: rgba(0, 0, 0, 0);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.card .card-body {
+  padding: 1.5rem;
+}
+.card .card-body h3 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  color: #000000;
+}
+.card .card-body .img-servicio {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+.card .card-body p {
+  color: rgba(0, 0, 0, 0.968627451);
+  line-height: 1.5;
+  font-size: 0.95rem;
+}
+
 .section-principal {
   background-color: #121212;
   color: #ffffff;

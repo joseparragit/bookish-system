@@ -1,0 +1,23 @@
+@use "../base/variables" as *;
+
+.footer-principal {
+  background-color: #121212; // o $color-fondo-oscuro
+  color: #ffffff;
+  padding: 2rem 1rem;
+  text-align: center;
+
+  p, span, small {
+    color: #ffffff;
+    margin: 0;
+  }
+
+  a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: #ff9800; // naranja de acento
+    }
+  }
+}
