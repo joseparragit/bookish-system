@@ -6,3 +6,22 @@ body {
   min-height: 100vh;
   margin: 0;
 }
+#trayectoria {
+  .img-trayectoria {
+    max-height: 220px;
+    width: 100%;
+    object-fit: cover;
+  }
+  .card {
+    background-color: #1a1a1a;
+    border: 1px solid #2d2d2d;
+    color: #ffffff;
+    h1, h2, h3 {
+      color: #ffffff;
+    }
+    p, li {
+      color: #b0b0b0;
+      line-height: 1.6;
+    }
+  }
+}

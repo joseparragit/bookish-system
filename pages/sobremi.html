@@ -39,21 +39,130 @@
         </div>
       </nav>
     </header>
-         <section class="py-5 bg-dark">
-   <div class="container text-center">
-  <div class="row">
-    <div class="col">
-     Column
-    </div>
-    <div class="col">
-      Column
-    </div>
-    <div class="col">
-      Column
+      <main>
+      <section id="trayectoria" class="py-5">
+  <div class="container">
+    <div class="row g-4 align-items-stretch">
+      
+      <!-- Columna 1: Historia e Imagen (Ocupa la mitad del ancho en pantallas grandes) -->
+      <div class="col-12 col-lg-6">
+        <div class="card h-100 p-4 border-0 shadow-sm">
+          <h1 class="h2 mb-3">Nuestra Trayectoria</h1>
+          <p class="text-secondary">
+            <strong>Pasión por la Innovación y los Finos Acabados:</strong> En <strong>Instalaciones QWERTY</strong>, nos dedicamos desde nuestros inicios a transformar espacios comunes en ambientes arquitectónicos de alto valor estético. Lo que comenzó como un proyecto especializado en carpintería y acabados finos, evolucionó a la par de las nuevas tecnologías de la construcción en seco.
+          </p>
+          <div class="mt-auto text-center pt-3">
+            <img src="../assets/img2.png" class="img-fluid rounded img-trayectoria" alt="Demostración de instalación de WPC">
+          </div>
+        </div>
+      </div>
+      <!-- Columna 2: Por qué elegirnos / Garantías -->
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="card h-100 p-4 text-center">
+          <div class="mb-3">
+            <span class="fs-1">🛠️</span>
+          </div>
+          <h3 class="h4">Compromiso y Calidad</h3>
+          <p class="text-secondary">
+            Seleccionamos materiales de primera línea resistentes al agua, intemperie y rayos UV para garantizar durabilidad.
+          </p>
+          <ul class="list-unstyled text-start mt-3 small text-secondary">
+            <li>✔ Asesoramiento técnico</li>
+            <li>✔ Instalación rápida y limpia</li>
+            <li>✔ Cero mantenimiento posterior</li>
+          </ul>
+        </div>
+      </div>
+      <!-- Columna 3: Números / Resultados -->
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="card h-100 p-4 text-center">
+          <div class="mb-3">
+            <span class="fs-1">🏆</span>
+          </div>
+          <h3 class="h4">Nuestra Experiencia</h3>
+          <div class="my-3">
+            <span class="display-6 fw-bold text-warning">+5</span>
+            <p class="mb-2">Años en el rubro</p>
+          </div>
+          <div class="my-3">
+            <span class="display-6 fw-bold text-warning">+100</span>
+            <p class="mb-0">Proyectos finalizados con éxito</p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-</div>
-  </section>
+</section>
+
+     <section class="section-principal py-5">
+  <div class="container">
+    <div class="row g-4">
+      
+      <!-- Card 1: Piletas -->
+      <div class="col-12 col-lg-4">
+        <div class="card h-100">
+          <img src="../assets/card1.png" class="card-img-top img-card-custom" alt="Wall panel Composite Piletas">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Deck en piletas</h5>
+            <p class="card-text">Bordes y bordearías de piscinas o piletas (superficie antideslizante e inmune a la humedad constante).</p>
+            <p class="card-text mt-auto"><small class="text-secondary">Uso exterior</small></p>
+          </div>
+        </div>
+      </div>
+      <!-- Card 2: Muros y Fachadas -->
+      <div class="col-12 col-lg-4">
+        <div class="card h-100">
+          <img src="../assets/Cardsobremi1.png" class="card-img-top img-card-custom" alt="Demostración de Wall panel Muros">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Muros y Fachadas</h5>
+            <p class="card-text">Revestimiento de fachadas de viviendas o locales comerciales (Wall Panel exterior / Siding).</p>
+            <p class="card-text mt-auto"><small class="text-secondary">Uso exterior / comercial</small></p>
+          </div>
+        </div>
+      </div>
+      <!-- Card 3: Áreas Interiores -->
+      <div class="col-12 col-lg-4">
+        <div class="card h-100">
+          <img src="../assets/cardsobremi3.png" class="card-img-top img-card-custom" alt="Demostración De WPC interiores">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Áreas Interiores</h5>
+            <p class="card-text">Paredes principales en livings, comedores y recibidores. Fondos para paneles de TV o respaldares.</p>
+            <p class="card-text mt-auto"><small class="text-secondary">Uso interior</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+    </main>
+
+    <footer>
+      <p>
+        © <span id="year"></span> JOSE PARRA — Todos los derechos reservados.
+      </p>
+
+      <ul>
+        <li>
+          <a href="https://www.linkedin.com/in/jose-parra-7b1104412/" target="_blank" rel="noopener">
+            LinkedIn-JOSE PARRA
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/joseparragit" target="_blank" rel="noopener">
+            GitHub-JOSE PARRA
+          </a>
+        </li>
+      </ul>
+
+      <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+      </script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    </footer>
+  </div>
+</body>
+</html>
+
 
        
        
@@ -68,10 +177,3 @@
        
        
        
-       
-       
-       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-
-        </body>
-
-

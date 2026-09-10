@@ -1,30 +1,34 @@
 .card {
   background-color: #1a1a1a;
   border: 1px solid #333333;
-  color: #00000000;
   border-radius: 8px;
   overflow: hidden;
+  color: #ffffff;
+
+  // Aplica la altura y el ajuste a ambos nombres de clase o directo a img
+  .img-servicio,
+  .img-card-custom,
+  .card-img-top {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+  }
 
   .card-body {
-    padding: 1.5rem;
+    padding: 1.25rem;
 
-    h3 {
-      font-size: 1.25rem;
-      margin-bottom: 1rem;
-      color: #000000;
+    h3,
+    .card-title {
+      font-size: 1.2rem;
+      margin-bottom: 0.75rem;
+      color: #ffffff;
     }
 
-    .img-servicio {
-      width: 100%;
-      height: 200px;        // Altura fija idéntica para todas
-      object-fit: cover;    // Recorta proporcionalmente sin aplastar la imagen
-      border-radius: 6px;
-    }
-
-    p {
-      color: #000000f7;
-      line-height: 1.5;
+    p,
+    .card-text {
+      color: #cccccc;
       font-size: 0.95rem;
+      line-height: 1.5;
     }
   }
 }
