@@ -108,6 +108,25 @@ body {
   line-height: 1.5;
 }
 
+.seccion-servicios h2 {
+  color: #ffffff;
+  font-weight: 700;
+}
+.seccion-servicios .card {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+}
+.seccion-servicios .card .card-body h3 {
+  color: #111111;
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+}
+.seccion-servicios .card .card-body p {
+  color: #333333;
+  line-height: 1.5;
+  font-size: 0.95rem;
+}
+
 .section-principal {
   background-color: #121212;
   color: #ffffff;
