@@ -49,43 +49,59 @@
       </nav>
     </header>
 
-     <main>
-     <section id="galeria" class="py-4">
-  <div class="container">
-    <h2 class="mb-3">Galería</h2>
-    <div id="carouselGaleria" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="../assets/img1.png"
-     class="d-block mx-auto"
-     style="width: 70%; height: auto; object-fit: cover;"
-     alt="Imagen 1">
+
+   <h1 class="titulo-galeria">
+  Galeria de trabajos <span class="badge text-bg-secondary">NewTechwood</span>
+</h1>
+   <main>
+  <section id="galeria" class="py-4">
+    <div class="container">
+      
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          
+          <div class="carousel-item active">
+            <img src="../assets/carrousel1.png" class="d-block mx-auto img-carrusel" alt="Demostración de WPC 1">
+          </div>
+          
+          <div class="carousel-item">
+            <img src="../assets/carrousel2.png" class="d-block mx-auto img-carrusel" alt="Demostración de WPC 3">
+          </div>
+
+          <div class="carousel-item">
+            <img src="../assets/carrousel3.png" class="d-block mx-auto img-carrusel" alt="Demostración de WPC 3">
+          </div>
+
+          <div class="carousel-item">
+            <img src="../assets/carrousel4.png" class="d-block mx-auto img-carrusel" alt="Demostración de WPC 3">
+          </div>
+
+          <div class="carousel-item">
+            <img src="../assets/carrousel5.png" class="d-block mx-auto img-carrusel" alt="Demostración de WPC 3">
+          </div>
+
+          <div class="carousel-item">
+            <img src="../assets/carrousel6.png" class="d-block mx-auto img-carrusel" alt="Demostración de WPC 3">
+          </div>
+          
+
         </div>
-        <div class="carousel-item">
-          <img src="../assets/img2.png"
-     class="d-block mx-auto"
-     style="width: 70%; height: auto; object-fit: cover;"
-     alt="Imagen 1">
-        </div>
-        <div class="carousel-item">
-          <img src="../assets/img3.png"
-     class="d-block mx-auto"
-     style="width: 70%; height: auto; object-fit: cover;"
-     alt="Imagen 1">
-        </div>
+
+        <!-- Controles de navegación -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselGaleria" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Anterior</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselGaleria" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Siguiente</span>
-      </button>
+
     </div>
-  </div>
-</section>
-    </main>
+  </section>
+</main>
+
     <footer class="footer-principal">
       <p>© <span id="year"></span> JOSE PARRA — Todos los derechos reservados.</p>
       <ul>

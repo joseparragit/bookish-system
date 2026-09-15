@@ -1,0 +1,16 @@
+.img-carrusel {
+  width: auto;
+  max-width: 85%;          // Para que no toque los bordes laterales en pantalla grande
+  max-height: 480px;        // Límite de alto para que no ocupe toda la pantalla
+  height: 150vh;             // Se adapta proporcionalmente a la altura de la pantalla
+  object-fit: contain;      // Muestra la foto entera sin recortar nada
+  border-radius: 12px;      // Bordes prolijos
+}
+
+// Ajuste para celular / tablet
+@media (max-width: 768px) {
+  .img-carrusel {
+    max-width: 100%;
+    height: 250px;          // Altura compacta y cómoda para móviles
+  }
+}

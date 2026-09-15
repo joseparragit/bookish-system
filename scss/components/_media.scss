@@ -1,0 +1,17 @@
+.img-instalacion {
+  // Control de bordes
+  border-radius: 16px;                     // Redondeo de las esquinas
+  border: 2px solid #ffc107;               // Borde sólido (podés cambiar el color o grosor)
+  
+  // Sombra y dimensiones controladas
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
+  max-height: 420px;
+  object-fit: cover;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  // Efecto sutil al pasar el mouse (opcional)
+  &:hover {
+    transform: scale(1.02);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.45);
+  }
+}

@@ -1,11 +1,16 @@
+// 1. Importación de variables (si las usás, siempre al inicio)
+// @use '../abstracts/variables' as v;
+
+// 2. Estilos base para todas las tarjetas (.card)
 .card {
   background-color: #1a1a1a;
   border: 1px solid #333333;
   border-radius: 8px;
   overflow: hidden;
   color: #ffffff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 
-  // Aplica la altura y el ajuste a ambos nombres de clase o directo a img
+  // Manejo uniforme de imágenes en cards
   .img-servicio,
   .img-card-custom,
   .card-img-top {
@@ -32,25 +37,58 @@
     }
   }
 }
+
+// 3. Variante para la sección de Servicios (estilo claro)
 .seccion-servicios {
   h2 {
-    color: #ffffff; // Título principal oscuro
+    color: #ffffff;
     font-weight: 700;
   }
+
   .card {
-    background-color: #ffffff; // Fondo claro para contrastar con letras oscuras
+    background-color: #ffffff;
     border: 1px solid #e0e0e0;
+
     .card-body {
       h3 {
-        color: #111111; // Subtítulo negro/oscuro
+        color: #111111;
         font-size: 1.25rem;
         margin-bottom: 0.75rem;
       }
+
       p {
-        color: #333333; // Párrafo gris grafito oscuro (muy legible)
+        color: #333333;
         line-height: 1.5;
         font-size: 0.95rem;
       }
+    }
+  }
+}
+
+// 4. Variante para la sección de Características / Ventajas WPC (estilo oscuro con hover)
+#caracteristicas {
+  .card {
+    background-color: #2b2b2b;
+    border: 1px solid #444444;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+    }
+
+    h3 {
+      font-size: 1.3rem;
+      margin-bottom: 0.75rem;
+      color: #f8f9fa;
+    }
+
+    p {
+      font-size: 0.95rem;
+      color: #d1d5db;
+      line-height: 1.6;
+      margin-bottom: 0;
     }
   }
 }
