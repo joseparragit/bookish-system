@@ -1,11 +1,7 @@
 {
-  "dependencies": {
-    "aos": "^2.3.4",
-    "bootstrap": "^5.3.8"
-  },
   "name": "wall-panel",
   "version": "1.0.0",
-  "description": "Este portafolio es una página personal para presentar mi perfil como Desarrollador Web y mostrar mis proyectos.",
+  "description": "Sitio web oficial y catálogo de productos Wall-panel y WPC.",
   "main": "index.js",
   "scripts": {
     "build:css": "sass scss/style.scss css/style.css --no-source-map",
@@ -13,14 +9,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/joseparragit/bookish-system.git"
+    "url": "git+https://github.com/joseparragit/wall-panel.git"
   },
-  "keywords": [],
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/joseparragit/bookish-system/issues"
+  "keywords": [
+    "wall-panel",
+    "wpc",
+    "bootstrap",
+    "sass",
+    "desarrollo-web"
+  ],
+  "author": "Jose Parra",
+  "license": "ISC",
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "aos": "^2.3.4",
+    "bootstrap": "^5.3.8"
   },
-  "homepage": "https://github.com/joseparragit/bookish-system#readme",
   "devDependencies": {
     "sass": "^1.103.1"
   }
