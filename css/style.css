@@ -167,6 +167,23 @@ body {
   color: #ffffff;
 }
 
+footer ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+footer ul li {
+  margin-bottom: 0.5rem;
+}
+footer ul li a {
+  text-decoration: none;
+  color: #e0e0e0;
+  transition: color 0.3s ease;
+}
+footer ul li a:hover {
+  color: #ffc107;
+}
+
 .img-carrusel {
   width: auto;
   max-width: 85%;

@@ -10,3 +10,25 @@
    
   }
 }
+footer {
+  ul {
+    list-style: none; // Quita los bullets
+    padding-left: 0;  // Quita el sangrado por defecto
+    margin-bottom: 0;
+
+    li {
+      margin-bottom: 0.5rem;
+
+      a {
+        text-decoration: none; // Quita el subrayado
+        color: #e0e0e0;
+        transition: color 0.3s ease;
+
+        &:hover {
+          color: #ffc107; // Color dorado/destacado
+        }
+      }
+    }
+  }
+}
+
